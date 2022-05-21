@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/icon.png">
+  <!-- フォントの設定をする -->
+  <title>Portfolio | Hayato Yamaguchi</title>
+</head>
+<body>
+  <header>
+    <h2><a href="#top">Hayato Yamaguchi</h2></p>
+    <nav>
+     <ul>
+       <li><a href="#about" class="nav">About</a></li>
+       <li><a href="#works" class="nav">Works</a></li>
+       <li><a href="#contact" class="nav">Contact</a></li>
+     </ul>
+   </nav>
+  </header>
+  <!-- top start-->
+  <main>
+    <article id="top" class="top">
+      <div class ="toptext">
+        <h1>Hayato Yamaguchi</h1>
+        <p>portfolio</p>
+      </div>
+      <!-- おしゃれな1ページにする -->
+    </article>
+    <!-- top end -->
+    <!-- about start -->
+    <article id="about" class="about">
+      <h2>About</h2>
+      <div class="aboutcontainer">
+        <img src="img/about.png" alt="顔写真" class="aboutimg">
+        <div class="abouttext">
+          <h3>Hayato Yamaguchi</h3>
+          <h4>山口 覇斗</h4>
+          <p>略歴ば〜っと</p>
+        </div>
+      </div>
+      <!-- 略歴や自己紹介 -->
+    </article>
+    <!-- about end -->
+    <!-- works start -->
+    <article id="works" class="works">
+      <h2>Works</h2>
+      <div class="workscontainer">
+        <div class="workselement work1">
+          <a href="hoge">
+            <img src="img/works/work1" alt="Work 1">
+             <h3 class="workscaption">説明文</h3>
+          </a>
+        </div>
+        <div class="workselement work2">
+          <a href="hoge">
+            <img src="img/works/work2" alt="Work 2">
+            <h3 class="workscaption">説明文</h3>
+          </a>
+        </div>
+      </div>
+    </article>
+    <!-- works end -->
+    <!-- contact start -->
+    <article id="contact" class="contact">
+      <h2>Contact</h2>
+        <form action="process.php" method="post">
+          <label>お名前<input type="text" placeholder="お名前" name="name"></label>
+          <label>メールアドレス<input type="email" placeholder="メールアドレス" name="mailadress"></label>
+          <textarea></textarea>
+          <button type="submit">送信</button>
+        </form>
+    </article>
+    <!-- contact end -->
+  </main>
+  <footer>
+    <!-- フッター作る -->
+  </footer>
+</body>
+</html>
